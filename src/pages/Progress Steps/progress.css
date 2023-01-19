@@ -1,0 +1,54 @@
+.containerProgress {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 350px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.circle {
+    background-color: white;
+    border: 1px solid #8585ff;
+    border-radius: 59px;
+    height: fit-content;
+    width: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.progress {
+
+    height: 2px;
+    background-color: #8585ff;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+}
+
+.one {
+    width: 33%;
+}
+
+.two {
+    width: 66%;
+}
+
+.three {
+    width: 100%;
+}
+
+
+.activeP {
+    background-color: #8585ff;
+}

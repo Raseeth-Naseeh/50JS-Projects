@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.containerMain h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+.panel {
+    background-position: center;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 10px;
+    border-radius: 20px;
+    transition: flex 0.7s ease-in-out;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+}
+
+.active {
+    flex: 0.4;
+    background-repeat: repeat;
+}
+
+.fontactive {
+    font-size: 30px !important;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.font {
+    font-size: 10px;
+    /* position: absolute; */
+}
